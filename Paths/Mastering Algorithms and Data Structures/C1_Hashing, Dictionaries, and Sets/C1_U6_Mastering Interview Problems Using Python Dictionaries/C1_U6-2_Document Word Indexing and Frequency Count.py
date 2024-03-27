@@ -22,7 +22,6 @@ def keyword_index(docs):
 docs = ["Hello world", "world of python", "python is a snake"]
 print(keyword_index(docs))  # Expected output: {'Hello': {0: 1}, 'world': {0: 1, 1: 1}, 'of': {1: 1}, 'python': {1: 1, 2: 1}, 'is': {2: 1}, 'a': {2: 1}, 'snake': {2: 1}}
 
-
 '''
 #下面的這個寫成雙重定位(文字位於總目錄及文件子目錄的位置)了
 #(停用)
